@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="refresh_arrow">@style/Refresh_Arrow</item>
+        <item name="refresh_progress">@style/Refresh_Progress</item>
+        <item name="load_more_text">@style/Load_More_Text</item>
+        <item name="no_data_msg">@style/No_Data_Text</item>
+    </style>
+
+    <style name="Refresh_Arrow">
+        <item name="android:src">@drawable/listview_loading</item>
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+    </style>
+    <style name="Refresh_Progress">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:indeterminateDrawable">@drawable/listview_progress</item>
+    </style>
+    <style name="Load_More_Text">
+        <item name="android:text">@string/load_more</item>
+        <item name="android:textColor">@color/refresh_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="No_Data_Text" parent="Load_More_Text">
+        <item name="android:text">@string/no_data_msg</item>
+        <item name="android:textColor">@color/refresh_text_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

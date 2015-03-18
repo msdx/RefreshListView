@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RefreshListView">
+        <attr name="init_header" format="boolean" />
+        <attr name="init_footer" format="boolean" />
+    </declare-styleable>
+    <attr name="refresh_arrow" format="reference"/>
+    <attr name="refresh_progress" format="reference"/>
+    <attr name="load_more_text" format="reference"/>
+    <attr name="no_data_msg" format="reference"/>
+</resources>
